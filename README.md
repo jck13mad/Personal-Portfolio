@@ -3,8 +3,7 @@
 <br />
 <h3>Overview</h3>
 <p>
-    This project is meant to be a collection of my projects, containing those that I did at Flatiron as well as many more to come. Also contained are the blog posts that I had created for such projects directly from my Blogger site.
-  
+    This project is meant to be a collection of my projects, containing those that I did at Flatiron as well as many more to come. Also contained are the blog posts that I had created for such projects directly from my Blogger site. 
     The app has a rails backend with some seeding data as well as a React/Redux frontend in order to fetch the projects, comments, and blogs and display them in an orderly fashion.
 </p>
 <br />

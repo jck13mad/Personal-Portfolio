@@ -242,7 +242,10 @@ li {
 
  .blog-card {
    max-width: 50rem;
+ }
 
+ .blog-card:hover {
+   transform: scale(1.1);
  }
 
  #contact {
@@ -356,6 +359,17 @@ li {
  
  sup {
    top: -.5em;
+ }
+
+ #blogs-container a:before {
+  content: " ";
+  position: absolute;
+  width: 0%;
+  left: 50%;
+  height: 3px;
+  background-color: #DECBA4;
+  bottom: 0;
+  transition: all 250ms ease-in;
  }
  
  a {
@@ -612,6 +626,10 @@ li {
   color: #DECBA4;
 }
 
+#project-list:hover {
+  transform: scale(1.05);
+}
+
  #project-list a {
   color: white;
  }
@@ -619,7 +637,7 @@ li {
  #project-list ul {
   color: #DECBA4;
   position: center;
-  padding-left: 80px
+  padding-left: 80px;
  }
 
  /* .rectangle {
